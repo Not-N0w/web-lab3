@@ -1,0 +1,16 @@
+.top-line-container {
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ui-growl.ui-widget {
+    font-size: 12px;
+    padding: 6px 10px;
+    width: 200px !important;
+    left: 20px !important;
+    right: auto !important;
+}

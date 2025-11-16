@@ -1,0 +1,12 @@
+*РЕЗУЛЬТАТЫ ПОПАДАНИЙ*
+Всего записей: [[${#lists.size(hits)}]]
+------------------------------- [# th:each="hit : ${hits}"]
+ID: [[${hit.id}]]
+X: [[${hit.x.toPlainString()}]]
+Y: [[${hit.y.toPlainString()}]]
+R: [[${hit.r.toPlainString()}]]
+Попадание: [[${hit.hit ? 'Да' : 'Нет'}]]
+Время выполнения: [[${#numbers.formatDecimal(hit.executionTime, 1, 5,'POINT')}]] мс
+Дата: [[${hit.currentDatetime}]]
+-------------------------------
+[/]
